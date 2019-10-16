@@ -14,3 +14,8 @@ h1{
   margin:0px;
   padding: 20px;
 }
+
+p {
+  text-align: center;
+  font-size: 25px;
+}
