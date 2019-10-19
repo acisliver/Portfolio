@@ -14,7 +14,21 @@ h1{
   margin:0px;
   padding: 20px;
 }
-.image{
-    width:200px;
-    height:400px;
+
+#info{
+    width:auto;
+    height:auto;
+    margin:0;
+    overflow:hidden;
+}
+#blank{
+    width:30%;
+    float:left;
+    overflow: hidden;
+
+}
+#image{
+    width:70%;
+    float:left;
+    text-align:center;
 }
