@@ -20,14 +20,10 @@ h1{
     margin:0;
     overflow:hidden;
 }
-#blank{
-    width:30%;
-    float:left;
-    overflow: hidden;
 
-}
 #image{
-    width:70%;
+    width:100%;
     float:left;
     text-align:center;
+    margin:0 auto;
 }
