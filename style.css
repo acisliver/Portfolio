@@ -45,6 +45,9 @@ h1 a{
   text-decoration: none;
   transform: translate(30%);
 }
+ion-icon{
+  font-size: 32px
+}
 .fb{
   color:#0377fc;
 }
