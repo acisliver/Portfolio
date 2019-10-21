@@ -16,21 +16,35 @@ h1{
 h1 a{
   text-decoration: none;
   color:#dcdde1;
-}
+}/*Portfolio헤더 색 지정 및 하이퍼링크 효과 제거*/
 .card{
   width : 280px;
   padding: 20px;
+  margin:20px;
   background: white;
   overflow: hidden;
   text-align: center;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-70%, 10%);
   border-radius: 7px;
   box-shadow: 1px 1px 12px black;
+}/*card 객체에 크기, 그림자 등 속성 지정*/
+.calculator{
+  transform: translate(-120%, 10%);
 }
-
+.game{
+  transform: translate(10%, 10%);
+}/*게임 카드 위치 조정*/
+.game a img{
+  width: 128px;
+  height: 128px;
+}/*게임 카드 내 이미지 크기 조정*/
+.media{
+  text-align: center;
+  text-decoration: none;
+  transform: translate(30%);
+}
 .fb{
   color:#0377fc;
 }
@@ -40,20 +54,15 @@ h1 a{
 .yt{
   color:#fc0303;
 }
+.ml{
+  color:green;
+}
+.gh{
+  color: black;
+}
 #info{
     width:auto;
     height:auto;
     margin:0;
     overflow:hidden;
-}
-#blank{
-    width:30%;
-    float:left;
-    overflow: hidden;
-
-}
-#image{
-    width:70%;
-    float:left;
-    text-align:center;
 }
