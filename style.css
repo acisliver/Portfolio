@@ -42,7 +42,6 @@ h1 a{
 .media{
   text-align: center;
   text-decoration: none;
-  transform: translate(30%);
 }
 ion-icon{
   font-size: 32px
@@ -51,16 +50,25 @@ ion-icon{
   color:black;
 }
 .fb{
-  color:#0377fc;
+  color:#dcdde1;
 }
 .ml{
-  color:green;
+  color:#dcdde1;
 }
 .gh{
 color : #dcdde1;
 }
 .fb:hover{
-  color:white;
+  color:#0377fc;
+  transition: 0.5s;
+}
+.ml:hover{
+  color:green;
+  transition: 0.5s;
+}
+.gh:hover{
+  color:#ce42f5;
+  transition: 0.5s;
 }
 .calculatorText{
   color : #dcdde1;
