@@ -81,11 +81,14 @@ color : #dcdde1;
   margin:0;
   padding:0;
   perspective:1px;
-  transform-style:preserve-3d;
+  transform-style:preserve-3d;/**3차원**/
   height:100%;
   overflow-y:scroll;
   overflow-x:hidden;
-  font-family:"Luna";
+  font-family:"Luna";/**폰트 지정**/
+}
+#effect::-webkit-scrollbar {
+display:none;
 }
 header h2{
     margin-top:100px;
@@ -97,11 +100,11 @@ header::before{
     bottom:0;
     content:"";
     left:0;
-    position:absolute;
+    position:absolute; /**위치 설정**/
     right:0;
     top:0;
     display:block;
-    background-image:url(image.jpg);
+    background-image:url(image.jpg);/**소개글 이미지 넣는곳**/
     background-size:cover;
     transform-origin:center center 0;
     transform:translateZ(-1px)scale(2);
