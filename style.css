@@ -69,14 +69,8 @@ ion-icon{
 .cgh{
   color:black;
 }
-.fb{
-  color:#dcdde1;
-}
-.ml{
-  color:#dcdde1;
-}
-.gh{
-color : #dcdde1;
+.fb, .ml, .gh{
+  color:#7f8c8d;
 }
 .fb:hover{
   color:#0377fc;
@@ -87,11 +81,15 @@ color : #dcdde1;
   transition: 0.5s;
 }
 .gh:hover{
-  color:#ce42f5;
+  color:#8e44ad;
   transition: 0.5s;
 }
+.cgh:hover{
+  color:#8e44ad;
+  transition: 0.5s;  
+}
 .calculatorText{
-  color : #dcdde1;
+  color : black;
   font-size: 25px;
 }
 .calculatorText ion-icons{
