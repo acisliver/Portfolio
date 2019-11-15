@@ -21,6 +21,12 @@ h1 a{
   text-decoration: none;
   color:#000000;
 }/*Portfolio헤더 색 지정 및 하이퍼링크 효과 제거*/
+.footer{
+  border-top: 1px solid rgba(223,190,106,0.9);
+  margin: 30px;
+  margin-bottom: 0;
+  padding: 20px;
+}
 .card{
   width : 280px;
   padding: 20px;
@@ -31,9 +37,8 @@ h1 a{
   border: 1px solid rgba(223,190,106,0.3);
   overflow: hidden;
   text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
+  position: relative;
+  display: inline-grid;
   border-radius: 7px;
   box-shadow: 1px 1px 12px black;
 
@@ -49,10 +54,12 @@ h1 a{
     -ms- :익스플로러에 적용, 보통 생략/-o- : 오페라 브라우저에 적용*/
 }
 .calculatorCard{
-  transform: translate(-120%, 30%);
+  float: left;
+  /*transform: translate(-120%, 30%);*/
 }/*계산기 카드 위치 조정*/
 .gameCard{
-  transform: translate(10%, 30%);
+  float: right;
+  /*transform: translate(10%, -70%);*/
 }/*게임 카드 위치 조정*/
 .gameCard a img{
   width: 128px;
@@ -86,7 +93,7 @@ ion-icon{
 }
 .cgh:hover{
   color:#8e44ad;
-  transition: 0.5s;  
+  transition: 0.5s;
 }
 .calculatorText{
   color : black;
