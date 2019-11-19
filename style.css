@@ -17,6 +17,8 @@ h1 a{
   text-decoration: none;
   color: black;
 }/*Portfolio헤더 색 지정 및 하이퍼링크 효과 제거*/
+
+
 #footer{
   border-top: 1px solid rgba(223,190,106,0.9);
   margin: 30px;
@@ -52,6 +54,7 @@ ion-icon{
   color:#8e44ad;
 }
 
+
 #info{
     width:auto;
     height:auto;
@@ -64,11 +67,11 @@ ion-icon{
 .card{
   width : 280px;
   padding: 20px;
-  color: rgba(223,190,106,0.9);
   margin: 2rem;
-  background-color: #ffffff;
   border: 1px solid rgba(223,190,106,0.3);
   overflow: hidden;
+  color: rgba(223,190,106,0.9);
+  background-color: #ffffff;
   text-align: center;
   position: relative;
   display: inline-grid;
