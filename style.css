@@ -6,65 +6,23 @@ body{
   background-size: 100%;
   background-color: #FFFFF0;;
 }
-#grid{
-  border: 5px solid pink;
-  display: grid;
-  grid-template-columns: 150px 1fr 150px;
-}
 h1{
   font-size: 50px;
   text-align: center;
   margin:0px;
   padding: 20px;
+
 }
 h1 a{
   text-decoration: none;
-  color:#000000;
+  color: black;
 }/*Portfolio헤더 색 지정 및 하이퍼링크 효과 제거*/
-.footer{
+#footer{
   border-top: 1px solid rgba(223,190,106,0.9);
   margin: 30px;
   margin-bottom: 0;
   padding: 20px;
 }
-.card{
-  width : 280px;
-  padding: 20px;
-  color: rgba(223,190,106,0.9);
-  margin: 0.625rem;
-  transition: all 0.7s ease-out;
-  background-color: #ffffff;
-  border: 1px solid rgba(223,190,106,0.3);
-  overflow: hidden;
-  text-align: center;
-  position: relative;
-  display: inline-grid;
-  border-radius: 7px;
-  box-shadow: 1px 1px 12px black;
-
-}/*card 객체에 크기, 그림자 등 속성 지정*/
-.card:hover{
-  background-color:#cccccc;
-  color: #000000;
-  border: 1px solid rgba(223,190,106,0);
-  -webkit-filter: invert(100%);
-
-  /*-ms-filter:invert(100%);*/
-    /*-webkit- : 구글, 사파리 브라우저에 적용-moz- : 파이어폭스 브라우저에 적용
-    -ms- :익스플로러에 적용, 보통 생략/-o- : 오페라 브라우저에 적용*/
-}
-.calculatorCard{
-  float: left;
-  /*transform: translate(-120%, 30%);*/
-}/*계산기 카드 위치 조정*/
-.gameCard{
-  float: right;
-  /*transform: translate(10%, -70%);*/
-}/*게임 카드 위치 조정*/
-.gameCard a img{
-  width: 128px;
-  height: 128px;
-}/*게임 카드 내 이미지 크기 조정*/
 .media{
   text-align: center;
   text-decoration: none;
@@ -95,6 +53,55 @@ ion-icon{
   color:#8e44ad;
   transition: 0.5s;
 }
+
+#info{
+    width:auto;
+    height:auto;
+    margin:0;
+    overflow:hidden;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+  width : 280px;
+  padding: 20px;
+  color: rgba(223,190,106,0.9);
+  margin: 2rem;
+  background-color: #ffffff;
+  border: 1px solid rgba(223,190,106,0.3);
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+  display: inline-grid;
+  justify-content: center;
+  border-radius: 7px;
+  box-shadow: 1px 1px 12px black;
+
+}/*card 객체에 크기, 그림자 등 속성 지정*/
+.card:hover{
+  background-color:#cccccc;
+  color: #000000;
+  transition: all 0.7s ease-out;
+  border: 1px solid rgba(223,190,106,0);
+  -webkit-filter: invert(100%);
+
+  /*-ms-filter:invert(100%);*/
+    /*-webkit- : 구글, 사파리 브라우저에 적용-moz- : 파이어폭스 브라우저에 적용
+    -ms- :익스플로러에 적용, 보통 생략/-o- : 오페라 브라우저에 적용*/
+}
+.calculatorCard{
+  /*transform: translate(-120%, 30%);*/
+}/*계산기 카드 위치 조정*/
+.gameCard{
+  /*transform: translate(10%, -70%);*/
+}/*게임 카드 위치 조정*/
+.gameCard a img{
+  width: 128px;
+  height: 128px;
+}/*게임 카드 내 이미지 크기 조정*/
+
+
 .calculatorText{
   color : black;
   font-size: 25px;
@@ -102,12 +109,8 @@ ion-icon{
 .calculatorText ion-icons{
   transform: translate(0, 50%);
 }
-#info{
-    width:auto;
-    height:auto;
-    margin:0;
-    overflow:hidden;
-}
+
+
 /**밑으로 부터는 소개글 효과 넣는 부분**/
 #effect{
   color:#fff;
