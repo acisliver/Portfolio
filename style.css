@@ -33,25 +33,23 @@ ion-icon{
 }
 .cgh{
   color:black;
+  transition: 0.5s;
 }
 .fb, .ml, .gh{
   color:#7f8c8d;
+  transition: 0.5s;
 }
 .fb:hover{
   color:#0377fc;
-  transition: 0.5s;
 }
 .ml:hover{
   color:green;
-  transition: 0.5s;
 }
 .gh:hover{
   color:#8e44ad;
-  transition: 0.5s;
 }
 .cgh:hover{
   color:#8e44ad;
-  transition: 0.5s;
 }
 
 #info{
@@ -77,12 +75,12 @@ ion-icon{
   justify-content: center;
   border-radius: 7px;
   box-shadow: 1px 1px 12px black;
+  transition: all 0.7s ease-out;
 
 }/*card 객체에 크기, 그림자 등 속성 지정*/
 .card:hover{
   background-color:#cccccc;
   color: #000000;
-  transition: all 0.7s ease-out;
   border: 1px solid rgba(223,190,106,0);
   -webkit-filter: invert(100%);
 
