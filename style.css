@@ -6,36 +6,79 @@ body{
   background-size: 100%;
   background-color: #FFFFF0;;
 }
-#grid{
-  border: 5px solid pink;
-  display: grid;
-  grid-template-columns: 150px 1fr 150px;
-}
 h1{
   font-size: 50px;
   text-align: center;
   margin:0px;
   padding: 20px;
+
 }
 h1 a{
   text-decoration: none;
-  color:#000000;
+  color: black;
 }/*Portfolio헤더 색 지정 및 하이퍼링크 효과 제거*/
+
+
+#footer{
+  border-top: 1px solid rgba(223,190,106,0.9);
+  margin: 30px;
+  margin-bottom: 0;
+  padding: 20px;
+}
+.media{
+  text-align: center;
+  text-decoration: none;
+  transform: translate(40%);
+}
+ion-icon{
+  font-size: 32px
+}
+.cgh{
+  color:black;
+  transition: 0.5s;
+}
+.fb, .ml, .gh{
+  color:#7f8c8d;
+  transition: 0.5s;
+}
+.fb:hover{
+  color:#0377fc;
+}
+.ml:hover{
+  color:green;
+}
+.gh:hover{
+  color:#8e44ad;
+}
+.cgh:hover{
+  color:#8e44ad;
+}
+
+
+#info{
+    width:auto;
+    height:auto;
+    margin:0;
+    overflow:hidden;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 .card{
   width : 280px;
   padding: 20px;
-  color: rgba(223,190,106,0.9);
-  margin: 0.625rem;
-  transition: all 0.7s ease-out;
-  background-color: #ffffff;
+  margin: 2rem;
   border: 1px solid rgba(223,190,106,0.3);
   overflow: hidden;
+  color: rgba(223,190,106,0.9);
+  background-color: #ffffff;
   text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
+  position: relative;
+  display: inline-grid;
+  justify-content: center;
   border-radius: 7px;
   box-shadow: 1px 1px 12px black;
+  transition: all 0.7s ease-out;
 
 }/*card 객체에 크기, 그림자 등 속성 지정*/
 .card:hover{
@@ -49,60 +92,26 @@ h1 a{
     -ms- :익스플로러에 적용, 보통 생략/-o- : 오페라 브라우저에 적용*/
 }
 .calculatorCard{
-  transform: translate(-120%, 30%);
+  /*transform: translate(-120%, 30%);*/
 }/*계산기 카드 위치 조정*/
 .gameCard{
-  transform: translate(10%, 30%);
+  /*transform: translate(10%, -70%);*/
 }/*게임 카드 위치 조정*/
 .gameCard a img{
   width: 128px;
   height: 128px;
 }/*게임 카드 내 이미지 크기 조정*/
-.media{
-  text-align: center;
-  text-decoration: none;
-  transform: translate(40%);
-}
-ion-icon{
-  font-size: 32px
-}
-.cgh{
-  color:black;
-}
-.fb{
-  color:#dcdde1;
-}
-.ml{
-  color:#dcdde1;
-}
-.gh{
-color : #dcdde1;
-}
-.fb:hover{
-  color:#0377fc;
-  transition: 0.5s;
-}
-.ml:hover{
-  color:green;
-  transition: 0.5s;
-}
-.gh:hover{
-  color:#ce42f5;
-  transition: 0.5s;
-}
+
+
 .calculatorText{
-  color : #dcdde1;
+  color : black;
   font-size: 25px;
 }
 .calculatorText ion-icons{
   transform: translate(0, 50%);
 }
-#info{
-    width:auto;
-    height:auto;
-    margin:0;
-    overflow:hidden;
-}
+
+
 /**밑으로 부터는 소개글 효과 넣는 부분**/
 #effect{
   color:#fff;
