@@ -2,13 +2,13 @@
 Contributor : 강성범, 고대은
 배경 : 강성범
 객체(card) : 고대은
-자기소개
+#자기소개
 -----
 * 학과: 컴퓨터공학전공
 * 학번: 2017108246
 * 이름: 고대은
 
-Fork
+#Fork
 --------
 * [Github Markdown](https://guides.github.com/features/mastering-markdown/)
 
